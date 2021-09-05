@@ -33,7 +33,8 @@ function App() {
        <h3>Total Player : {players.length}</h3>
     
       
-      <h2>Players Information</h2>
+      <h2>Players Information </h2>
+      <p>This is from september</p>
       <ul>
         {
           players.map(player => <Player player = {player}
